@@ -56,6 +56,11 @@ jQuery(document).ready(function($) {
                     $('#form_nome').val(objectEdit.nome);
                     $("#form_sobre_nome").val(objectEdit.sobre_nome);
                     $("#form_endereco").val(objectEdit.endereco);
+
+                    $('#form_nome').focus();
+                    $('#form_sobre_nome').focus();
+                    $('#form_endereco').focus();
+                    $('#form_nome').focus();
                 });
 
                 $(".delete_class").click(function () {
@@ -106,7 +111,7 @@ jQuery(document).ready(function($) {
                     $('#modal').openModal();
 
                     $("#mensagem").empty();
-                    $("#mensagem").html("Contato inserido com sucess");
+                    $("#mensagem").html("Contato inserido com sucesso.");
                     getContatos();
 
                 });
