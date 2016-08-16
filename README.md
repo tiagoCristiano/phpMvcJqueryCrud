@@ -1,4 +1,8 @@
-# phpMvc
+# phpMvcJqueryCrud
+
+#####REQUIREMENTS
+
+-PHP 5.6 or later and [Composer]
 
 Clone:
 
@@ -18,7 +22,7 @@ Import Sql : sqlDump.sql
 
 ```sh
 
-$ cd phpMvc 
+$ cd phpMvcJqueryCrud 
 
 $ composer.phar install
 
@@ -27,3 +31,5 @@ $ cd public/
 $ php -S localhost:8080
 ```
 ----
+
+[Composer]: https://getcomposer.org/

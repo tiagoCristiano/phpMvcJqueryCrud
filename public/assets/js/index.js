@@ -31,7 +31,7 @@ jQuery(document).ready(function($) {
                     table += '<td style="text-align: center" id="sobre_nome_'+e[k].id+'">'+e[k].sobre_nome+'</td>';
                     table += '<td style="text-align: center" id="endereco_'+e[k].id+'">'+e[k].endereco+'</td>';
                     table += '<td style="text-align: center" >' +
-                             '<button class="btn waves-effect waves-light  light-blue accent-1 edit-class" id="'+e[k].id+'">Editar<i class="material-icons right">edit</i></button>' +
+                             '<button class="btn waves-effect waves-light  blue darken-1 edit-class" id="'+e[k].id+'">Editar<i class="material-icons right">edit</i></button>' +
                              '<button class="btn waves-effect waves-light red delete_class" id="'+e[k].id+'">Excluir<i class="material-icons right">delete</i></button>' +
                                                             '</td></tr>';
                 }

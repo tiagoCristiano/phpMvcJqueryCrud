@@ -31,7 +31,7 @@ CREATE TABLE `contatos` (
 
 /*Data for the table `contatos` */
 
-insert  into `contatos`(`id`,`nome`,`sobre_nome`,`endereco`) values (48,'1','1','1232');
+insert  into `contatos`(`id`,`nome`,`sobre_nome`,`endereco`) values (1,'Contato','Teste','Rua:teste');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
