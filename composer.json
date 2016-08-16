@@ -1,0 +1,22 @@
+{
+  "name" :"tiago/mvc",
+
+  "require" :{
+    "php": ">=5.6"
+  },
+
+  "authors" : [{
+     "name" : "Tiago Cristiano Alves",
+     "email" : "tcristianoalves@outlook.com"
+  }],
+
+  "autoload" : {
+
+    "psr-4" : {
+      "Tiago\\": "vendor/Tiago/",
+      "App\\" : "App"
+    }
+
+  }
+
+}
